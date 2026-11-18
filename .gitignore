@@ -1,0 +1,26 @@
+# Credentials and developer machine files — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.seed
+*keypair*.json
+*wallet*.json
+keys/
+**/keys/
+.secrets/
+**/.secrets/
+.solana/
+**/.solana/
+
+# Build/cache artifacts
+node_modules/
+target/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
